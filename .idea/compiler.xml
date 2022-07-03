@@ -14,6 +14,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="clients" target="17" />
       <module name="eureka-server" target="17" />
     </bytecodeTargetLevel>
   </component>
