@@ -30,9 +30,6 @@ services:
   zipkin:
     image: openzipkin/zipkin
     container_name: zipkin
-    environment:
-      - STORAGE_TYPE=mysql
-      - MYSQL_HOST=mysql
     ports:
       - "9411:9411"
 
